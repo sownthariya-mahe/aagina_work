@@ -1,0 +1,13 @@
+Create database:
+create database crud;
+
+Create Table:
+ CREATE TABLE crud.aagina (
+  sno INT NULL AUTO_INCREMENT,
+  name VARCHAR(45) NULL,
+  address VARCHAR(45) NULL,
+  city VARCHAR(45) NULL,
+  pincode INT NULL,
+  city VARCHAR(45) NULL,
+  PRIMARY KEY (sno),
+  UNIQUE INDEX sno_UNIQUE (sno ASC) VISIBLE);

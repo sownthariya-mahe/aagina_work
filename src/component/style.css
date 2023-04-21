@@ -1,0 +1,13 @@
+td,th,tr{
+    border-collapse: collapse;
+    border:2px solid rgb(216, 215, 215) !important;
+    background-color: ivory;
+    padding:10px;
+}
+.align{
+    display: grid;
+    place-items: center;
+}
+.bgcl{
+    background-image: linear-gradient(rgb(190,174,177),pink,rgb(190, 174, 177));
+}

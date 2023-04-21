@@ -1,0 +1,37 @@
+Create database:
+create database crud;
+
+Create Table:
+ CREATE TABLE crud.aagina (
+  sno INT NULL AUTO_INCREMENT,
+  name VARCHAR(45) NULL,
+  address VARCHAR(45) NULL,
+  city VARCHAR(45) NULL,
+  pincode INT NULL,
+  city VARCHAR(45) NULL,
+  PRIMARY KEY (sno),
+  UNIQUE INDEX sno_UNIQUE (sno ASC) VISIBLE);
+---------------------------------------------------------------------------------------------------
+Server Path:
+E:\aagina_project\aagina_p1\server_node
+
+------------------------------------------------------------------------
+End Points:
+Get all user details:
+'/Personaldetails'
+
+Post user details:
+'/AddUser'
+
+Delete user details:
+'/Delete'
+
+Get single user details:
+'/view/:sno'
+
+Get the user details for update:
+'/Update/:sno'
+
+put the user updated details:
+'/Updateddata/:sno'
+-----------------------------------------------------------------------------------
