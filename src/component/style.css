@@ -9,5 +9,5 @@ td,th,tr{
     place-items: center;
 }
 .bgcl{
-    background-image: linear-gradient(rgb(190,174,177),pink,rgb(190, 174, 177));
+    background-image: linear-gradient(rgb(190,174,177),pink,rgb(190, 174, 177),pink);
 }
