@@ -58,7 +58,7 @@ export function Userdetails() {
                         <input type="number" name="pincode" className="form-control" id="pincode" placeholder="Enter Your Pincode" value={pincode} />
 
                         <label className="form-label">Country</label>
-                        <input type="text" name="country" className="form-control" id="country" placeholder="Enter Your country" value={country} onChange={(e) => setCountry(e.target.value)} />
+                        <input type="text" name="country" className="form-control" id="country" placeholder="Enter Your country" value={country} />
 
 
                         <Link to='/'><input type="Button" value="Back" className="rounded-3 mt-2" /></Link>

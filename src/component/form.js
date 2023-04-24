@@ -29,7 +29,7 @@ export function Form() {
                     if (res.data.status === 'error') {
                         alert('error')
                         window.location.reload();
-                    } else if (res.data.status === 'error') {
+                    } else if (res.data.status === 'success') {
                         alert('success')
                         window.location.reload();
                     }
@@ -59,7 +59,7 @@ export function Form() {
                         <input type="text" name="country" className="form-control" id="country" placeholder="Enter Your country" />
 
 
-                        <input type="submit" value="submit" className="rounded-3 mt-2" />
+                        <button type="submit" value="submit" className="rounded-3 mt-2" > submit</button>
 
                     </form>
                 </div>
